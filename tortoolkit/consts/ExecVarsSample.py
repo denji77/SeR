@@ -5,16 +5,16 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = "acbv1233blahbkah"
-        API_ID = 696969
+        API_HASH = "dfeaadec16aff49b3665ed2a9633c8cf"
+        API_ID = 4512926
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = "anime.touka.workers.dev/0:/"
         
-        BOT_TOKEN = "23457345:advgyfchyrdchyfc"
+        BOT_TOKEN = "1632896073:AAHxCFKuzKjAudZU_QiuU50eLb0mLJABBcA"
         BASE_URL_OF_BOT = "https://anime19.tk"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001229703790, 925128836]
+        ALD_USR = [-1001263450758, 804248372]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 10
@@ -32,7 +32,7 @@ except:
         REMAINING_STR = "▒"
 
         # DB URI for access heroku prodrige url whatever 💁‍♀️
-        DB_URI = ":00c30bf487b5be9709cb11bd877d18f56071cb4ee2eb4c1de16a8565a9c0cc68@ec2-52-71-153-228.compute-1.amazonaws.com:5432/dc6mocelst2jl5"
+        DB_URI = "postgres://ovswmwwzgazcug:33e60ce493574ef4ef239968e2cc67b2d0dcdd5c1c3754ab219b0eeefc77f816@ec2-34-206-8-52.compute-1.amazonaws.com:5432/d519kf8mcf90aq"
         
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
@@ -55,10 +55,10 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of the torrent allowed
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 200
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 100
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
